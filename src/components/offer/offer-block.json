@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_offer_offer_blocks",
+  "info": {
+    "displayName": "Offer Block"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Description": {
+      "type": "richtext"
+    }
+  }
+}

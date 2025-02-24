@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_text_teksts",
+  "info": {
+    "displayName": "Tekst",
+    "icon": "underline"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

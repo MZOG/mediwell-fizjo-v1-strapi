@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepage_abouts",
+  "info": {
+    "singularName": "homepage-about",
+    "pluralName": "homepage-abouts",
+    "displayName": "Homepage_about"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "lead_text": {
+      "type": "string"
+    },
+    "description_text": {
+      "type": "string"
+    },
+    "button_text": {
+      "type": "string"
+    },
+    "about_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
