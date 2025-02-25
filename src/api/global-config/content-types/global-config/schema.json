@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "global_configs",
+  "info": {
+    "singularName": "global-config",
+    "pluralName": "global-configs",
+    "displayName": "GlobalConfig",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "primaryColor": {
+      "type": "string"
+    },
+    "companyName": {
+      "type": "string"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
